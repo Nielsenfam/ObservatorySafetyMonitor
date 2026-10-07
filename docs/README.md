@@ -16,7 +16,7 @@ An automated safety monitoring and weather mitigation system built on an **ESP32
 
 
 * **Web Control Interface & API:** Built-in web server providing endpoints for status monitoring (`/status`), manual overrides (`/open`, `/close`), system state toggling (`/active`, `/idle`), and heartbeats (`/ping`).
-    * **mDNS Support:** Easily access your device on your local network via `[http://safetymonitor.local](http://safetymonitor.local)`.
+    * **mDNS Support:** Easily access your device on your local network via `[http://safetymonitor.local/cmd]`.
     * **State Machine & Fault Protection:**
     * Features an **IDLE/ACTIVE** state system to prevent unwanted closures during maintenance.
     * Automatically attempts up to 5 closure pulses before triggering a **Fatal Abort** state to protect physical roof motors.

@@ -8,7 +8,7 @@ Run these two scripts on the main observing computer. In my observatory there is
 
 ## Scripts Overview
 
-### 1. Interactive Control Panel (`control-panel.ps1`)
+### 1. Interactive Control Panel (`ObservatoryControl.ps1`)
 An interactive, menu-driven CLI utility that allows you to manually send commands to your ESP32 controller and query live diagnostic metrics.
 
 * **Features:**
@@ -17,7 +17,7 @@ An interactive, menu-driven CLI utility that allows you to manually send command
   * **Live Diagnostics:** Query the full status endpoint (`/status`) to view system state, emergency triggers, and hardware sensor readings.
   * **Visual Feedback:** Color-coded terminal interface for quick status recognition (e.g., green for active/safe, red/yellow for alerts).
 
-### 2. Status Poller & Heartbeat Client (`heartbeat-client.ps1`)
+### 2. Status Poller & Heartbeat Client (`ObservatoryMonitor.ps1`)
 A background monitoring script that runs continuously to poll system status and provide a periodic heartbeat link to keep the ESP32 connection alive.
 
 * **Features:**

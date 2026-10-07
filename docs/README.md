@@ -7,20 +7,20 @@ An automated safety monitoring and weather mitigation system built on an **ESP32
 ## 🌟 Key Features
 
 * **Multi-Layered Safety Triggering:** Automatically commands roof closure via relay pulse under several dangerous conditions:
-* Hardwired Optical Rain Sensor activation.
-* AC Mains Power Loss detection.
-* Observatory PC Heartbeat timeout (monitors connection with your automation software).
-* External internet connection failure (fallback for network degradation).
-* Precipitation detected via local **Ecowitt** weather station HTTP POST pushes.
-* Precipitation reported by nearby **Weather Underground (WU)** PWS stations via API polling.
+    * Hardwired Optical Rain Sensor activation.
+    * AC Mains Power Loss detection.
+    * Observatory PC Heartbeat timeout (monitors connection with your automation software).
+    * External internet connection failure (fallback for network degradation).
+    * Precipitation detected via local **Ecowitt** weather station HTTP POST pushes.
+    * Precipitation reported by nearby **Weather Underground (WU)** PWS stations via API polling.
 
 
 * **Web Control Interface & API:** Built-in web server providing endpoints for status monitoring (`/status`), manual overrides (`/open`, `/close`), system state toggling (`/active`, `/idle`), and heartbeats (`/ping`).
-* **mDNS Support:** Easily access your device on your local network via `[http://safetymonitor.local](http://safetymonitor.local)`.
-* **State Machine & Fault Protection:**
-* Features an **IDLE/ACTIVE** state system to prevent unwanted closures during maintenance.
-* Automatically attempts up to 5 closure pulses before triggering a **Fatal Abort** state to protect physical roof motors.
-* Automatically resets and returns to normal monitoring once weather and safety conditions clear.
+    * **mDNS Support:** Easily access your device on your local network via `[http://safetymonitor.local](http://safetymonitor.local)`.
+    * **State Machine & Fault Protection:**
+    * Features an **IDLE/ACTIVE** state system to prevent unwanted closures during maintenance.
+    * Automatically attempts up to 5 closure pulses before triggering a **Fatal Abort** state to protect physical roof motors.
+    * Automatically resets and returns to normal monitoring once weather and safety conditions clear.
 
 
 * **Visual Status Feedback:** Uses the ESP32-S3's native onboard RGB LED to display system status at a glance (Booting, Idle, Active, Warning, Emergency, or Aborted).

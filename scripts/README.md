@@ -2,6 +2,8 @@
 
 A collection of PowerShell automation and management scripts designed to interface with an ESP32-based observatory safety monitor and motorized roof controller over a local network.
 
+Run these two scripts on the main observing computer. In my observatory there is a mele quiter 4c mini PC connected to each scope where the controlling software NINA is running. I have these two scripts autostart on login to this PC in a new window to give me quick access to controlling the roof and safety monitor as well as immediate feedback on status.  
+
 ---
 
 ## Scripts Overview
@@ -47,4 +49,4 @@ $EspIp = "192.168.3.158"
 1. Open PowerShell.
 2. Navigate to the directory containing the scripts.
 3. Run the desired script:
-   * **For manual operation:** `./control-panel.ps1`
+   * **For manual operation:** `./[scriptname.ps1]`

@@ -9,7 +9,7 @@ An automated safety monitoring system built on an **ESP32-S3** microcontroller. 
 * **Multi-Layered Safety Triggering:** Automatically commands roof closure via relay pulse under several dangerous conditions:
     * Hardwired Optical Rain Sensor activation.
     * AC Mains Power Loss detection.
-    * Observatory PC Heartbeat timeout (monitors connection with your automation software).
+    * Observatory PC Heartbeat timeout (monitors connection with telescope control PC typically running NINA).
     * External internet connection failure (fallback for network degradation).
     * Precipitation detected via local **Ecowitt** weather station HTTP POST pushes.
     * Precipitation reported by nearby **Weather Underground (WU)** PWS stations via API polling.

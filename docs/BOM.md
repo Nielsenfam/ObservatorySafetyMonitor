@@ -12,4 +12,4 @@ This document lists the required hardware, sensors, and enclosures for building 
 | **Position / Contact Sensor** | Magnetic Reed Switch / Sensor | Used for monitoring roof position (such as `PIN_ROOF_CLOSED` on GPIO 19 to detect when the roof is fully closed). | 1 | [Amazon Link](https://www.amazon.com/dp/B0F2F99Q2C) | 
 | **Power Supply** | 5V DC Power Supply / USB-C Wall Adapter | 1. Powers the ESP32-S3 via USBC. 2. Powers relay module. Seperate for isolation purposes | 2 | Standard 5V PSU |
 | **Power Supply** | 12V DC Power Supply / 12V Wall Adapter | Powers the RG-11 Rain Sensor. | 1 | Standard 12V PSU |
-| **Weather Integration** *(Optional)* | Local Ecowitt Weather Station & Weather Underground (WU) API | External hardware/services providing local weather telemetry and rain rate pushes via HTTP. | 1 System | N/A | 
+| **Weather Integration** *(Optional)* | Local Ecowitt Weather Station & Weather Underground (WU) API | External hardware/services providing local weather telemetry and rain rate pushes via HTTP. | 1 WS3901 System | [Ecowitt Link](https://a.co/d/04VKQMmq) | 

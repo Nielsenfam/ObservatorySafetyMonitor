@@ -1,6 +1,6 @@
 # ESP32 Observatory Safety Monitor
 
-An automated safety monitoring and weather mitigation system built on an **ESP32-S3** microcontroller. Designed specifically for astronomical observatories, this firmware monitors local weather sensors, AC power, internet connectivity, and a host PC heartbeat to automatically trigger roof closure in emergency scenarios.
+An automated safety monitoring system built on an **ESP32-S3** microcontroller. Designed specifically for astronomical observatories, this firmware monitors local weather sensors, AC power, internet connectivity, and a host PC heartbeat to automatically trigger roof closure in emergency scenarios.
 
 ---
 

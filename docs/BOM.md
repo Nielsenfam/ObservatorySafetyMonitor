@@ -4,7 +4,7 @@ This document lists the required hardware, sensors, and enclosures for building 
 
 | **Item Description** | **Component / Part Type** | **Purpose / Function in Project** | **Quantity** | **Link / Reference** | 
 | --- | --- | --- | --- | --- |
-| **Microcontroller** | ESP32-S3 and Development Board (with Native RGB LED support), external ant | Main controller handling Wi-Fi, web server, and safety logic. | 1 | [Amazon Link](https://www.amazon.com/dp/B08KWFYQQR) | 
+| **Microcontroller** | ESP32-S3 and Development Board (with Native RGB LED support), external ant | Main controller handling Wi-Fi, web server, and safety logic. | 1 | [Amazon Link]([https://www.amazon.com/dp/B08KWFYQQR](https://a.co/d/0a6COAIs)) | 
 | **Enclosure / Housing** | Weatherproof Junction Box / Project Box | Protects the ESP32-S3 and electronics from outdoor weather and elements. | 1 | [Amazon Link](https://www.amazon.com/dp/B08KWFYQQR) | 
 | **Rain Sensor** | Hydreon RG-11 Optical Rain Sensor | Connected to `PIN_RAIN` (GPIO 4) to instantly detect moisture and rain (`LOW` state). | 1 | [Hydreon Store](https://store.hydreon.com/shop/rain-sensor/RG-11.html) | 
 | **AC Power Loss Detector** | 3.3V Power Supply serving as Power Loss Detector | Connected to `PIN_AC_DETECT` (GPIO 16); detects high-voltage AC mains to signal power loss (`LOW` when power is lost). | 1 | [Amazon Link](https://www.amazon.com/dp/B00HQ1F2OA) | 
